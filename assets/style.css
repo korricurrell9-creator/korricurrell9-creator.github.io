@@ -1,94 +1,45 @@
-/* Dark terminal background and monospace */
+/* Full-page repeating logo background */
 body {
-    background-color: #0b0e14;
-    color: #c0caf5;
-    font-family: "Fira Mono", "Courier New", monospace;
-    margin: 2rem;
-    line-height: 1.5;
+    background-image: url('assets/logo.png');
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    font-family: "Courier New", Courier, monospace;
+    color: #e0ffe0; /* Light green text to match outline */
+    margin: 0;
+    padding: 0;
 }
 
-/* Links like terminal colors */
+/* Main content container with green outline */
+.main-content {
+    border: 4px solid green;   /* Green outline */
+    border-radius: 12px;       /* Rounded corners */
+    padding: 25px;             /* Space inside container */
+    margin: 30px auto;         /* Center horizontally */
+    max-width: 1200px;         /* Prevents content from being too wide */
+    background-color: rgba(0, 0, 0, 0.7); /* Slight transparent black for readability */
+}
+
+/* Headers styling */
+h1, h2, h3, h4 {
+    color: #00ff00; /* Bright green headings */
+    margin-top: 20px;
+}
+
+/* Links styling */
 a {
-    color: #7aa2f7;
+    color: #00ff00;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 
-/* Headings with subtle terminal style */
-h1, h2, h3, h4 {
-    color: #ff9e64;
-    border-bottom: 1px solid #3b4261;
-    padding-bottom: 0.2em;
-    margin-top: 1.5em;
-}
-
-/* Code blocks */
-pre, code {
-    background: #161821;
-    color: #9ece6a;
-    padding: 0.3em 0.5em;
-    border-radius: 4px;
-    font-size: 0.9rem;
-}
-
-/* Blockquotes */
-blockquote {
-    border-left: 4px solid #f7768e;
-    padding-left: 1em;
-    color: #c0caf5;
-    margin: 1em 0;
-}
-
-/* Lists with emoji spacing */
-ul li {
-    margin-bottom: 0.5em;
-}
-
-/* Section separators */
-hr {
-    border: 1px dashed #3b4261;
-    margin: 2em 0;
-}
-/* Green outline for sections and code blocks */
-section, article, div, pre, code {
-    border: 2px solid #00ff00;  /* Bright green outline */
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-    border-radius: 6px;         /* Rounded corners */
-}
-
-/* Optional: headings inside outlined sections */
-section h1, section h2, article h1, article h2 {
+/* Code blocks styling */
+code, pre {
+    background-color: rgba(0,0,0,0.8);
     color: #00ff00;
-}
-/* Global background logo */
-body {
-    background-image: url('/assets/logo.png'); /* path to your logo */
-    background-repeat: repeat;                /* repeat the logo across the page */
-    background-position: center;             /* center alignment */
-    background-size: 100px 100px;           /* size of each logo */
-    opacity: 0.1;                            /* make it subtle */
-}
-
-/* Optional: make text easier to read on logo background */
-body, p, h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* or any color that contrasts well */
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
-/* Background logo across all pages */
-body {
-    background-image: url('assets/logo.png');
-    background-repeat: repeat; /* repeat logo */
-    background-position: top left;
-    background-attachment: fixed;
-}
-
-/* Green outline around main content */
-.main-content, .container, body > * {
-    border: 4px solid green;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-x: auto;
 }
