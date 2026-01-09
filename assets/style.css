@@ -1,0 +1,7 @@
+body {
+  background-color: #0b0e14;
+  color: #c0caf5;
+  font-family: monospace;
+}
+a { color: #7aa2f7; }
+pre, code { background: #161821; color: #9ece6a; padding: 0.2em 0.4em; }
