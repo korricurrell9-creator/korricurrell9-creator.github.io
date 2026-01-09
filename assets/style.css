@@ -43,3 +43,21 @@ code, pre {
     border-radius: 5px;
     overflow-x: auto;
 }
+/* Main content container */
+.main-content {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* slightly transparent for readability */
+    border: 3px solid #00ff00; /* green outline */
+    border-radius: 12px;
+    color: #fff;
+    font-family: monospace;
+}
+
+/* Full page repeating logo background */
+body {
+    background-image: url('assets/logo.png');
+    background-repeat: repeat;
+    background-size: 100px 100px; /* size of each logo tile */
+}
