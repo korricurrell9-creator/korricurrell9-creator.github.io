@@ -1,20 +1,17 @@
 ---
 layout: page
-title: Home
+title: Korri's Lab
 ---
 
 # 🧪 Korri's Lab
 
-Terminal-built, fully CLI.
+**Terminal-built security tools & research**
 
-## Focus
-- 🐍 Python scripts
-- 🔐 Security testing
-- 📄 Write-ups
+Korri’s Lab is a personal research environment focused on:
 
-> Learn by breaking ethically.
+- 🐍 Python automation
+- 🔐 Ethical security testing
+- 📱 Android & web analysis
+- 📄 Clear technical write-ups
 
-## Featured
-- hacker_bulk.py
-- Payload collections
-- Android & web analysis
+> Learn by breaking — ethically.

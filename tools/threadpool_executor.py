@@ -84,24 +84,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
----
-
-## 5. ThreadPoolExecutor Python Script
-**Description:**  
-A Python CLI script to test multiple URLs concurrently and save results to a JSON file. Ideal for penetration testers, security researchers, and automation tasks.
-
-**Key Features:**
-- Sends GET requests to multiple URLs from a file
-- Handles errors and broken SSL certificates
-- Multithreaded for speed (configurable worker threads)
-- Outputs results in `results.json` with URL, final URL, status code, and body preview
-
-**Installation:**
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:korricurrell9-creator/korricurrell9-creator.github.io.git
-cd korricurrell9-creator.github.io
