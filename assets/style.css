@@ -63,3 +63,17 @@ section, article, div, pre, code {
 section h1, section h2, article h1, article h2 {
     color: #00ff00;
 }
+/* Global background logo */
+body {
+    background-image: url('/assets/logo.png'); /* path to your logo */
+    background-repeat: repeat;                /* repeat the logo across the page */
+    background-position: center;             /* center alignment */
+    background-size: 100px 100px;           /* size of each logo */
+    opacity: 0.1;                            /* make it subtle */
+}
+
+/* Optional: make text easier to read on logo background */
+body, p, h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* or any color that contrasts well */
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
