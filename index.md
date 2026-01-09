@@ -1,20 +1,12 @@
----
-layout: page
-title: Home
----
-
-# 🧪 Korri's Lab
-
-Terminal-built, fully CLI.
-
-## Focus
-- 🐍 Python scripts
-- 🔐 Security testing
-- 📄 Write-ups
-
-> Learn by breaking ethically.
-
-## Featured
-- hacker_bulk.py
-- Payload collections
-- Android & web analysis
+title: Korri's Lab
+description: Terminal-built security tools & research
+theme: minima
+markdown: kramdown
+minima:
+  skin: dark
+  custom_css:
+    - assets/style.css
+header_pages:
+  - scripts.md
+  - writeups.md
+  - about.md
