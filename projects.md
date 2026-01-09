@@ -3,28 +3,21 @@ layout: page
 title: Projects
 ---
 
+<section class="main-content">
+
 # 🛠️ Korri’s Lab Projects
 
 Professional, terminal-first tools for **ethical security testing** and **automation**.
 
-<section class="main-content">
 ## 🚀 ThreadPoolExecutor Scanner
 
-A multithreaded Python URL scanner designed for fast reconnaissance of web endpoints.  
-Built for **ethical hacking, lab testing, and research**.
+A multithreaded Python URL scanner for fast reconnaissance.
 
 ### ✨ What it does
-- Sends concurrent HTTP requests to multiple URLs
-- Follows redirects automatically
-- Captures status codes and response previews
-- Outputs structured JSON results
-- Handles broken TLS certificates (common on VPN portals)
-
-### 🧰 Tech
-- Python 3.9+
-- `requests`
-- `ThreadPoolExecutor`
-- CLI-only (no GUI)
+- Sends concurrent HTTP requests
+- Captures status codes
+- Outputs JSON results
+- Handles broken TLS certificates
 
 ### 📦 Installation
 

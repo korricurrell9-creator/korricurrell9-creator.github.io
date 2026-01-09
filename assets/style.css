@@ -1,63 +1,17 @@
-/* Full-page repeating logo background */
+/* Logo as repeating background */
 body {
     background-image: url('assets/logo.png');
     background-repeat: repeat;
-    background-position: top left;
-    background-attachment: fixed;
-    font-family: "Courier New", Courier, monospace;
-    color: #e0ffe0; /* Light green text to match outline */
-    margin: 0;
-    padding: 0;
+    background-size: 150px; /* adjust size if needed */
 }
 
-/* Main content container with green outline */
+/* Main content container styling */
 .main-content {
-    border: 4px solid green;   /* Green outline */
-    border-radius: 12px;       /* Rounded corners */
-    padding: 25px;             /* Space inside container */
-    margin: 30px auto;         /* Center horizontally */
-    max-width: 1200px;         /* Prevents content from being too wide */
-    background-color: rgba(0, 0, 0, 0.7); /* Slight transparent black for readability */
-}
-
-/* Headers styling */
-h1, h2, h3, h4 {
-    color: #00ff00; /* Bright green headings */
-    margin-top: 20px;
-}
-
-/* Links styling */
-a {
-    color: #00ff00;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
-/* Code blocks styling */
-code, pre {
-    background-color: rgba(0,0,0,0.8);
-    color: #00ff00;
-    padding: 5px;
-    border-radius: 5px;
-    overflow-x: auto;
-}
-/* Main content container */
-.main-content {
-    max-width: 900px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.7); /* slightly transparent for readability */
-    border: 3px solid #00ff00; /* green outline */
+    background-color: rgba(0, 0, 0, 0.7); /* dark overlay for readability */
+    padding: 2rem;
+    border: 2px solid limegreen;
     border-radius: 12px;
-    color: #fff;
-    font-family: monospace;
-}
-
-/* Full page repeating logo background */
-body {
-    background-image: url('assets/logo.png');
-    background-repeat: repeat;
-    background-size: 100px 100px; /* size of each logo tile */
+    margin: 2rem auto;
+    max-width: 900px;
+    color: white; /* text color */
 }
