@@ -3,8 +3,6 @@ layout: page
 title: Projects
 ---
 
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-
 <div class="main-content">
 
 # 🛠️ Korri’s Lab Projects
@@ -15,8 +13,7 @@ Professional, terminal-first tools for **ethical security testing** and **automa
 
 ## 🚀 ThreadPoolExecutor Scanner
 
-A multithreaded Python URL scanner designed for fast reconnaissance of web endpoints.  
-Built for **ethical hacking, lab testing, and research**.
+A multithreaded Python URL scanner for fast reconnaissance of web endpoints.
 
 ### ✨ What it does
 - Sends concurrent HTTP requests to multiple URLs
@@ -31,14 +28,4 @@ Built for **ethical hacking, lab testing, and research**.
 - `ThreadPoolExecutor`
 - CLI-only (no GUI)
 
----
-
-### 📦 Installation
-
-```bash
-git clone git@github.com:korricurrell9-creator/korricurrell9-creator.github.io.git
-cd korricurrell9-creator.github.io
-
-python3 -m venv venv
-source venv/bin/activate
-pip install requests
+</div>
