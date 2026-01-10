@@ -1,19 +1,6 @@
-/* Animate logo background */
-body {
-    background-image: url('assets/logo.png');
-    background-repeat: repeat;
-    background-size: 150px;
-    animation: moveBackground 60s linear infinite; /* 60s = 1 minute loop */
-}
-
-@keyframes moveBackground {
-    0%   { background-position: 0 0; }
-    100% { background-position: 500px 500px; }
-}
-
 /* Logo as repeating background */
 body {
-    background-image: url('/assets/logo.png');
+    background-image: url('assets/logo.png');
     background-repeat: repeat;
     background-size: 150px;
     font-family: Arial, sans-serif;
@@ -34,11 +21,9 @@ body {
 }
 
 /* Headings styling */
-.main-content h1,
-.main-content h2,
+.main-content h1, 
+.main-content h2, 
 .main-content h3 {
     color: limegreen;
     margin-top: 1.5rem;
 }
-
-
